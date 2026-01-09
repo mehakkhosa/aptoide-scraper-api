@@ -68,7 +68,7 @@ Note: The `size` field reflects the APK download size reported by Aptoide, which
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mehakkhosa/aptoide-scraper-api.git
    cd aptoide-scraper-api
    ```
 
