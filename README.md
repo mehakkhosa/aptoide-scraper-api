@@ -153,12 +153,15 @@ fetch('http://localhost:8000/aptoide?package_name=com.facebook.katana')
 ```
 aptoide-scraper-api/
 ├── app/
-│   ├── __init__.py
+│   ├── __init__.py      # Package initialization
 │   ├── main.py          # FastAPI application, endpoints, and web UI
-│   ├── schemas.py       # Pydantic models for response
-│   └── scraper.py       # Aptoide API fetch + formatting
+│   ├── schemas.py       # Pydantic models for request/response validation
+│   └── scraper.py       # Aptoide API fetch + data formatting logic
+├── test_api.py          # Comprehensive test suite (17 tests)
+├── run.py               # Convenience script to start the server
 ├── requirements.txt     # Python dependencies
-└── README.md           # This file
+├── .gitignore           # Git ignore rules
+└── README.md            # This file
 ```
 
 ## Design Decisions & Assumptions
